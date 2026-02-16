@@ -1,8 +1,8 @@
 # Setup
 title: Dark Poole
-url: https://absurdprofit.github.io/blog/
+url: https://absurdprofit.github.io/blog
 paginate: 1
-baseurl: ""
+baseurl: "/blog"
 permalink: pretty
 
 # Gems
