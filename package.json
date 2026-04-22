@@ -13,7 +13,8 @@
   "license": "ISC",
   "author": "Nathan Handmade",
   "scripts": {
-    "dev": "just serve"
+    "dev": "just serve",
+    "build": "just build"
   },
   "devDependencies": {
     "just-install": "^2.0.2"

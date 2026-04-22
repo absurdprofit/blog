@@ -37,6 +37,17 @@ jobs:
         with:
           node-version: '22.14.0'
           cache: 'npm'
+      - name: Cache Rust
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.rustup
+            ~/.cargo/bin
+            ~/.cargo/registry
+            ~/.cargo/git
+          key: ${{ runner.os }}-rust-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-rust-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
