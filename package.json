@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/absurdprofit/blog/src#SUMMARY",
+  "bugs": {
+    "url": "https://github.com/absurdprofit/blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/absurdprofit/blog.git"
+  },
+  "license": "ISC",
+  "author": "Nathan Handmade",
+  "scripts": {
+    "dev": "just serve"
+  },
+  "devDependencies": {
+    "just-install": "^2.0.2"
+  }
+}
