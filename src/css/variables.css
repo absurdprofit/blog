@@ -18,10 +18,10 @@ html {
     --bg: #000000;
     --fg: #00ff87;
 
-    --sidebar-bg: #292c2f;
+    --sidebar-bg: var(--bg);
     --sidebar-fg: #a1adb8;
     --sidebar-non-existant: #505254;
-    --sidebar-active: #3473ad;
+    --sidebar-active: var(--fg);
     --sidebar-spacer: #393939;
 
     --scrollbar: var(--sidebar-fg);
@@ -29,7 +29,7 @@ html {
     --icons: #43484d;
     --icons-hover: #b3c0cc;
 
-    --links: #2b79a2;
+    --links: var(--fg);
 
     --inline-code-color: #c5c8c6;
 
@@ -46,9 +46,9 @@ html {
     --table-header-bg: hsl(200, 7%, 28%);
     --table-alternate-bg: hsl(200, 7%, 11%);
 
-    --searchbar-border-color: #aaa;
-    --searchbar-bg: #b7b7b7;
-    --searchbar-fg: #000;
+    --searchbar-border-color: var(--fg);
+    --searchbar-bg: var(--bg);
+    --searchbar-fg: var(--fg);
     --searchbar-shadow-color: #aaa;
     --searchresults-header-fg: #666;
     --searchresults-border-color: #98a3ad;
