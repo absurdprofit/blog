@@ -12,7 +12,7 @@ rust_install := if which("rustup") != "" {
 install:
   @{{rust_install}}
   @rustup update
-  @cargo install --version {{MDBOOK_VERSION}} mdbook
+  @cargo install --version "{{MDBOOK_VERSION}}" mdbook
 
 serve: install
   @mdbook serve --open
