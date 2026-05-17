@@ -334,14 +334,18 @@ mark.fade-out {
     padding: 10px 16px;
     transition: box-shadow 300ms ease-in-out;
     border: 1px solid var(--searchbar-border-color);
-    border-radius: 3px;
+    border-radius: 0px;
     background-color: var(--searchbar-bg);
     color: var(--searchbar-fg);
 }
 #searchbar:focus,
 #searchbar.active {
     box-shadow: 0 0 3px var(--searchbar-shadow-color);
-    outline-color: var(--searchbar-border-color);
+    outline: none;
+}
+#searchbar::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .searchresults-header {
