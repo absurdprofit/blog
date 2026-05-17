@@ -9,6 +9,12 @@ rust_install := if which("rustup") != "" {
   "curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf -y | sh"
 }
 
+mdbook_install := if which("mdbook") != "" {
+  "echo ✅ mdbook already installed"
+} else {
+  "cargo install --version {{MDBOOK_VERSION}} mdbook"
+}
+
 install:
   @{{rust_install}}
   @rustup update
