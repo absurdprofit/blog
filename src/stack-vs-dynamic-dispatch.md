@@ -218,16 +218,16 @@ use enum_dispatch::enum_dispatch;
 
 // snip
 
-#[enum_dispatch(Instruction)]
-pub enum InstructionSet {
-    Push(Push),
-    Add(Add),
-    Print(Print),
+#[enum_dispatch]
+pub trait Instruction {
+    fn execute(&self, stack: &mut Vec<i32>) -> ();
 }
 
 #[enum_dispatch(Instruction)]
-pub trait Instruction {
-    fn execute(&self, stack: &mut Vec<i32>) -> ();
+pub enum InstructionSet {
+    Push,
+    Add,
+    Print,
 }
 
 // snip
