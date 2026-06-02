@@ -1,5 +1,5 @@
 # About Me
-My name is Nathan, but I also go by absurdprofit. I currently work as a Software Engineering consultant in finance. I'm heavily invested in the future of the web and it's probably what I'll talk about the most here.
+My name is Nathan, but I also go by absurdprofit. I currently work as a Software Engineer in finance. I'm heavily invested in the future of the web and it's probably what I'll talk about the most here.
 
 ---
 
