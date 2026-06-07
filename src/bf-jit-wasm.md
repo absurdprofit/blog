@@ -1,5 +1,9 @@
-// Introduction
-// What is Brainfuck?
+# I Wrote a Brainf*ck JIT Runtime on WASM
+
+The programs we produce have to be executed at some point. How this is done depends on the programming language and its design constraints. I would like to talk about a runtime I wrote for the Brainf*ck programming language.
+
+# What is Brainfuck?
+[Brainf*ck](https://en.wikipedia.org/wiki/Brainfuck) is a programming language created by Urban Müller for the expressed purposed of being extremely minimalistic. The execution model of the language maps cleanly to a [Turing machine](https://en.wikipedia.org/wiki/Turing_machine), where data is read from and written to a cell (byte) at a time. The language provides syntax for addressing the next byte to the left or right and even has the notion of input, output and loops!
 
 // The Problem
 // Program execution models
