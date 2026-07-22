@@ -5,6 +5,7 @@ My name is Nathan, but I also go by absurdprofit. I currently work as a Software
 
 You can find me on:
 - [GitHub](https://github.com/absurdprofit)
+- [Linkedin](https://linkedin.com/in/absurdprofit)
 - [Or contact me via email](mailto:absurdprofit@icloud.com)
 
 <div align="center">
